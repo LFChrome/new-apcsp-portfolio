@@ -6,7 +6,7 @@ export class Unit extends Component {
   render() {
     return (
       <div className="row">
-        <Title text={"Unit 5 - Algorithms & Procedural Abstraction"}/>
+        <Title text={this.props.title}/>
         <hr></hr>
         <div className="row">
           <div className="col-md-3">
